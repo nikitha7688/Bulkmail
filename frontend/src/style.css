@@ -1,0 +1,114 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(160, 245, 228);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.card h1 {
+  margin: 0;
+  color: #060707;
+  font-size: 1.5em;
+  
+}
+
+.card-1 {
+  margin-bottom: 20px;
+  font-size: xx-large;
+  text-align: center;
+  background-color: rgb(13, 116, 110);
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.card-2{
+  margin-bottom: 20px;
+  font-size: small;
+  text-align: center;
+  background-color: rgb(115, 172, 172);
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-3{
+  
+  font-size:larger;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(8, 109, 109);
+  
+
+}
+
+textarea {
+  width: 70%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size:larger;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 14%;
+  
+
+  
+
+}
+
+input[type="file"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: cadetblue;
+  margin-top: 20px;
+  margin-left: 40%;
+  justify-content: space-between;
+
+  
+  
+  
+}
+
+p {
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+  margin-left: 40%;
+  font-size: x-large;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #0a6d60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 45%;
+  width: 10%;
+}
+
+.button:hover {
+  background-color: #8db9b3;
+}
